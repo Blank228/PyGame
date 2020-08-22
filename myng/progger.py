@@ -254,7 +254,7 @@ def photo_camera(x_cords):
         win.blit(ButF, (x_cords+85, 500))
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_f:
-                win.blit(canon, (200, 0))
+                # win.blit(canon, (200, 0))
 
 #переменная работы игры
 run = True
